@@ -1,0 +1,77 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+$font-opensans: 'Open Sans';
+
+//// Myriad pro
+$myriad-pro-regular: 'Myriad Pro Regular';
+
+/// @type List
+$text-font-stack: $font-opensans, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+/// Copy text color
+/// @type Color
+$text-color: #222 !default;
+
+/// Main brand color
+/// @type Color
+$brand-color: #E50050 !default;
+
+/// Grey
+/// @type Color
+$grey: 	#E4E3E3 !default;
+
+/// Light grey
+/// @type Color
+$light-grey: #E8EDE9 !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: #6D6C6C !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: #3D3C3C  !default;
+
+/// White
+/// @type Color
+$white: #FFF !default;
+
+/// Green
+/// @type Color
+$green: #2D633B !default;
+
+/// Light green
+/// @type Color
+$light-green:#84AB74   !default;
+
+/// Lighter green
+/// @type Color
+$lighter-green: #C0F7BE  !default;
+
+/// Mid Green
+/// @type Color
+$mid-green: #3D923A !default;
+
+/// Dark green
+/// @type Color
+$dark-green: #2A342B   !default;
+
+/// Gold
+/// @type Color
+$gold:#BA973D       !default;
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '../assets/' !default;

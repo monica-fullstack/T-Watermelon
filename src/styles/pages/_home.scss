@@ -1,0 +1,395 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+ 
+
+.home {
+  transition: all .2s ease-in-out;
+
+  .section-intro{
+    padding: 120px 0;
+    
+
+    background: radial-gradient(ellipse at center, rgba(231,56,39,1) 0%, rgba(54,91,56,1) 0%, rgba(80,128,81,1) 0%, rgba(54,91,56,1) 71%, rgba(54,91,56,1) 73%, rgba(54,91,56,1) 100%);
+
+    text-align: center;
+    color: $white;
+    font-family: $myriad-pro-regular;
+     
+  
+    .whole-watermelon {
+        height: 250px;
+        padding-top: 20px;
+    }
+  }
+
+  .section-two {
+    padding: 90px 0;
+       
+    text-align: center;
+    color: $dark-grey;
+    font-family: $myriad-pro-regular;
+  
+    background: $white;
+  
+    .paragraph-one {
+        font-size: 21px;
+        color: $mid-grey;
+    }
+ 
+    .slice-watermelon {
+      height: 260px;
+      padding-top: 20px;
+    }
+
+  }
+
+  .section-three {
+    padding: 80px 0;
+    
+    text-align: center;
+    color: $white;
+    font-family: $myriad-pro-regular;
+  
+    background: $dark-green;
+  
+    .paragraph-three {
+        font-size: 20px;
+        color: $white;
+        font-family: $myriad-pro-regular;
+    }
+
+    .nutri-fact {
+      height: 240px;
+      width: 580px;
+      padding-top: 20px;
+
+    }
+
+  }  
+
+  .section-four {
+    padding: 90px 0 50px;
+    
+    color: $dark-grey;
+    font-family: $myriad-pro-regular;
+  
+    background: $light-grey;
+
+    .c-col {
+      padding: 0 12px;
+    }
+  
+    .meet {
+      text-align: center;
+      font-family: $myriad-pro-regular;
+    }
+  
+    .paragraph-four {
+      font-size: 20px;
+      color: $mid-grey;
+      text-align: center;
+      font-family: $myriad-pro-regular;
+    } 
+    
+    .card-deck {
+      padding-top: 60px;   
+    }
+  
+    .card {
+      padding: 10px 0;
+
+      text-align: center;
+
+      background: $grey;
+      border-radius: 0;
+      border: none;
+  
+      .title {
+        text-align: center;
+        color: $mid-grey;
+        font-weight: bold;  
+        font-family: $myriad-pro-regular;
+      }
+  
+      .title-two {
+        color: $mid-grey;
+        font-weight: 20;
+        text-align: center;
+        font-family: $myriad-pro-regular;
+      }
+  
+      .text {
+        color: $mid-grey;
+        text-align: center;
+        font-size: 27px;
+        font-family: $myriad-pro-regular;
+        
+      }
+      
+      .price {
+        color: $gold;
+        font-size: 27px;
+        text-align: center;
+        font-family: $myriad-pro-regular;
+      }
+  
+      button {
+          background: $light-green;
+          border: none;
+          border-radius: 13px; 
+          
+          font-family: $myriad-pro-regular;
+          color: $white;
+  
+      
+      }
+      button:hover{
+        background: $mid-green;
+      }  
+  
+      
+    }
+    
+    footer {
+      padding: 30px 0 0;
+
+      font-weight: 21px;
+
+      background: $light-grey;
+    
+    .copy{
+      color: $mid-grey;
+      font-size: 15px;
+      word-spacing: -1px;
+    }
+    
+    .list-inline-item a {
+      max-width: 757px;
+      padding-right: 10px;
+
+      color: $mid-grey;
+      font-family: $myriad-pro-regular;
+    }
+      
+    }
+    
+    .btn-circle.btn-xl {
+      width: 70px;
+      height: 70px;
+      padding: 10px 16px;
+  
+      font-size: 24px;
+
+      border-radius: 35px;
+      
+    }
+    
+    .btn-circle {
+      width: 40px;
+      height: 40px;
+      padding: 4px 0px;
+  
+      border-radius: 50px;
+      background-color: $light-green;
+      border-style: none;
+  
+      text-align: center;
+      font-size: 30px;
+      line-height: 0.42857;
+      
+    }
+    
+  }
+    .up2 {
+      padding: 38px 27px 0 0;
+    
+    .triangle {
+      width: 25px;
+      height: 20px;
+    }
+    
+  }
+  
+  @include respond-to(xl){
+  
+    .section-intro{
+      padding: 147px 0 77px 15px;
+
+      letter-spacing: -.5px;
+      
+    .whole-watermelon{
+      height: 210px;
+      padding: 14px 6px 2px;
+
+    }
+    }
+
+    .section-two{
+      word-spacing: -3.1px;
+    
+      padding: 95px 6px 90px 24.5px;
+
+    .paragraph-one{
+      word-spacing: -1px;
+    }
+
+    .slice-watermelon{
+      height: 263.9px;
+      padding-left: -7px;
+      padding-right: 9px;
+
+    }
+  }
+
+    .section-three{
+      padding: 74px 0 72px 17px;
+
+      word-spacing: -3px;
+
+    .paragraph-three{
+      word-spacing: 1.6px;
+    
+    }
+
+    .nutri-fact{
+      height: 232px;
+      padding-left: -12px;
+      padding: 25px 10px 0 10px;
+
+    }
+
+    }
+
+    .section-four{
+      padding: 74px 139px;
+
+    .meet{
+      padding: 14px 16px 0 33px;
+
+      word-spacing: -3px;
+    }
+
+    .paragraph-four{
+      padding-left: 17px;
+
+      font-size: 20.2px;
+      word-spacing: 1px;
+    }
+
+    .c-col{
+      padding: 0 12px;
+    
+    }
+    .card-deck{
+      padding: 39px 26px 26px 26px;
+    }
+
+    .title{
+      padding: 16px 3px 0 12px;
+    }
+
+    .text{
+      padding: 0 16px 0px 27px;
+      
+      font-size: 26px;
+    }
+
+    .btn{
+      margin: -30px 9px 0 18px;
+
+      font-size: 14px;
+    }
+
+    .font-small{
+      padding: 49px 14px 0 12px;
+
+      word-spacing: 5px;
+    }
+
+    .copy{
+      word-spacing: -2px;
+      font-size: 10px;
+    }
+
+    .up2{
+      padding: 96px 26px 11px 13px;
+    }
+    }
+  
+  }
+
+  @include respond-to(sm-down) {
+    .section-four {
+      .col {
+        flex: auto;
+        width: 100%;
+
+        text-align: center;
+      }
+
+      .footer-menu {
+        margin-right: 0;
+      }
+    }
+  }
+  
+  
+  @include respond-to(xs) {
+    .whole-watermelon {
+      height: 200px;
+      width: 210px;
+    }
+    .slice_watermelon {
+      width: 234px;
+      height: 235px;
+    }
+  
+    .nutfact.png {
+      width: 200px;
+      height: 245px;
+    }
+    .text-one {
+      font-size: 35px;
+    }
+  
+    .text-two {
+      font-size: 28px;
+    }
+  
+     .text-three {
+      font-size: 35px;
+    }
+  
+    .meet {
+      font-size: 35px;
+    }
+  
+    .paragraph-one{
+      font-size: 15px;
+    }
+  
+    .paragraph-three{
+      font-size: 15px;
+    }
+
+    .footer-menu{
+      display: block;
+      text-align: center;
+    }
+
+    .copy{
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .up2{
+      float: right;
+    }
+  
+  }
+  
+
+}

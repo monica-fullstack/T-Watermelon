@@ -1,0 +1,80 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+header {
+
+  width: 100%;
+  top: 0;
+         
+  color: $white;
+  font-family: $myriad-pro-regular;  
+
+  .navbar {         
+    width: 100%; 
+        
+    position: absolute;
+  }
+    
+  .icon-bar {
+    background-color:$white !important;
+  }
+  
+  .hydric {
+    color: $white;
+    font-family: $myriad-pro-regular;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .hydric:hover{
+    color: $brand-color;
+  }
+  
+  .navbar-logo {
+    height: 43px;
+    width: 70px;
+  }
+  
+  .navbar-collapse li a {
+    color: $white;
+    font-size: 17px;
+    font-family: $myriad-pro-regular;   
+  }
+  
+  .buy-now {
+    color: $white;
+    font-family: $myriad-pro-regular;
+    font-size: 17px;
+
+    border: 2px solid $white;
+    border-radius: 0;
+    
+    padding: 5px 10px;
+  }
+
+  @include respond-to(xl){
+    .navbar-content{
+      max-width: 890px;
+      padding-top: 15px;
+
+      padding:20px 0 16px 24px;
+      
+    }
+
+    .hydric{
+      letter-spacing: 2px;
+    }
+
+    
+  }
+                
+}
+
+@include respond-to (sm-down){
+  .navbar{
+    background: $green   !important;
+  }
+}
